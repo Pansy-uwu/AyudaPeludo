@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Etiquetas <meta> obligatorias para Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Enlazando el CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+
+    <title>Inicio - Ayuda a un Peludo</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000 // Cambia la imagen cada 4 segundos
+        })
+      });
+    </script>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="portada">
+        <img src="img/portada.png" alt="portada">
+        <img src="img/adopta.png" alt="adopta">
+      </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adopta.html">Adopta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="banner">
+        <img src="img/banner.png" class="img-fluid" alt="pewito">
+    </div>
+
+    <div class="contenedor1">
+      <div class="separacion">
+        <h1>En proceso de Adopción</h1>
+        <p>Recuerda: Como Ayuda a un Peludo nunca te pediremos que realices depósitos para concretar una adopción.</p>
+      </div>
+    </div>
+
+    <!-- Crea el carrusel -->
+  <div class="carousel-container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Imágenes del carrusel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/perro1.png" alt="Imagen 1" width="600px">
+          <div class="carousel-caption text-center ">
+            <h2>Estrella</h2>
+            <p>En proceso hace 2 semanas</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/perro2.png" alt="Imagen 2" width="600px">
+          <div class="carousel-caption text-center ">
+            <h2>Javier</h2>
+            <p>En proceso hace 3 semanas</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/perro3.png" alt="Imagen 3" width="600px">
+          <div class="carousel-caption text-center ">
+            <h2>Simona</h2>
+            <p>En proceso hace 1 semanas</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="footer-basic">
+    <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-whatsapp"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="Index.html">Inicio</a></li>
+            <li class="list-inline-item"><a href="adopta.html">Adopta</a></li>
+            <li class="list-inline-item"><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <p class="copyright">Ayuda a un Peludo © 2023</p>
+    </footer>
+  </div>
+
+    <!-- Opcional: enlazando el JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <body>
+</html>
